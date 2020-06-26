@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="calc.js"></script>
+</head>
+
+<body>
+    <div class="row" >
+        <div class="col-2">
+
+        </div>
+        <div class="col-8">
+            <table style="margin: auto;">
+                <tr>
+                   
+                    <td colspan="4">
+                        <textarea rows="3" cols="39" id="screen" style="resize: none;"></textarea>
+                    </td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <button style="padding: 30px;" onclick="printNum(1)">1</button>
+                    </td>
+                    <td>
+                        <button style="padding: 30px;" onclick="printNum(2)">2</button>
+                    </td>
+                    <td>
+                        <button style="padding: 30px;" onclick="printNum(3)">3</button>
+                    </td>
+                    <td>
+                        <button style="padding: 30px;padding-right: 26px;" onclick="printNum('+')">+</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button style="padding: 30px;" onclick="printNum(4)">4</button>
+                    </td>
+                    <td>
+                        <button style="padding: 30px;"onclick="printNum(5)">5</button>
+                    </td>
+                    <td>
+                        <button style="padding: 30px;"onclick="printNum(6)">6</button>
+                        
+                    </td>
+                    <td>
+                        <button style="padding: 30px;"onclick="printNum('-')">-</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button style="padding: 30px;"onclick="printNum(7)">7</button>
+                    </td>
+                    <td>
+                        <button style="padding: 30px;"onclick="printNum(8)">8</button>
+                    </td>
+                    <td>
+                        <button style="padding: 30px;"onclick="printNum(9)">9</button>
+                    </td>
+                    <td>
+                        <button style="padding: 30px;"onclick="printNum('*')">*</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button style="padding: 30px;"onclick="Sol()">=</button>
+                    </td>
+                    <td>
+                        <button style="padding: 30px;"onclick="printNum(0)">0</button>
+                    </td>
+                    <td>
+                        <button style="padding: 30px;"onclick="Clear()">C</button>
+                    </td>
+                    <td>
+                        <button style="padding: 30px;"onclick="printNum('/')">/</button>
+                    </td>
+                </tr>
+
+
+
+            </table>
+
+        </div>
+        <div class="col-2">
+
+        </div>
+    </div>
+</body>
+
+</html>
